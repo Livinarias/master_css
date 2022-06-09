@@ -1,0 +1,38 @@
+/*Selector Global*/
+*{
+    font-family:Verdana,
+    margin: 0px
+}
+
+/* Selector de etiqueta*/
+h1{
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+a{
+    font-size: 18px;
+    color:green;
+}
+// compuesto
+footer a{
+    color: red;
+}
+/* Selector de id*/
+#descripcion{
+    border: 5px solid black;
+    padding: 15px
+}
+
+#titulo{
+    background: blue;
+}
+
+/* Selector de clase*/
+
+.parrafo{
+    color: yellow;
+}
+
+/* Selector de atributo*/

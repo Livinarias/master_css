@@ -1,0 +1,9 @@
+blockquote = nos da una tabulación.
+hr = salto de lines colocando una linea
+ol =  lista ordenada (numeros)
+ul = lista desordenada (puntos)
+tr = filas tabla
+td = columnas tabla
+th = encabezados tabla
+target "_blank" = abrir link nueva pestaña
+
