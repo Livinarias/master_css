@@ -1,0 +1,30 @@
+/* importar una fuente */
+@font-face{
+    font-family: LivinFuenteCustom;
+    src: url(font/Noto_Sans_JP/NotoSansJP-Black.otf);
+}
+
+h1{
+    font-family: LivinFuenteCustom, Helvetica;
+    font-size: 40px;
+    /*colores */
+
+    /*colores  del sistema */
+    color: MediumPurple;
+    /*colores  hexadecimales*/
+    color: #eeeeee;
+    /*colores RGB*/
+    color: rgb(red, green, blue);
+    /*colores RGBA*/
+    color: rgba(red, green, blue, alpha);
+}
+
+h3{
+    font-family: "Comic Sans MS";
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: uppercase;
+}

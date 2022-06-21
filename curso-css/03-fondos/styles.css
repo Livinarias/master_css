@@ -1,0 +1,29 @@
+body{
+    background-color: blueviolet;
+    background-image: url(img/patron.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    /* fondo se quede fijo*/
+    background-attachment: fixed;
+    /*posicionamiento imagenes*/
+    background-position: buttom;
+}
+
+#caja{
+    border: 5px solid black;
+    background-color: brown;
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: overline;
+    vertical-align: top;
+
+}
+
+#parrafo{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    text-indent: 15px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
