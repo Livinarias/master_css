@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.layout{
+    width: 1200px;
+    height: 600px;
+    margin: 0px auto;
+    /*definir contenedor grid*/
+    display: grid;
+    /* espaciado*/
+    grid-template-columns: repeat(2,calc(25% - 10px)) 15% 35%; /* fracciones 1fr ...*/
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    border: 3px solid orangered;
+}
+
+.layout .caja{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+    background: gray;
+}
+
+.layout .red{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background: red;
+}
+
+.layout .blue{
+    grid-column: 2/4;
+    background: blue;
+}
+
+.layout .green{
+    grid-row: 2/4;
+    background: green;
+}
+
+.layout .pink{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-column: 1/5;
+    background: palevioletred;
+}
